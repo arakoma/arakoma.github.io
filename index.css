@@ -1,27 +1,36 @@
 @charset "UTF-8";
 
 html {
-    background: #090a0e;
+    background: #0b0f16;
 }
 
 * {
     text-align: center;
-    color: #b5daff;
+    color: #ffffff;
 }
 
 p {
     font-size: 20px;
 }
 
-.box {
+.linkbox {
+    position: relative;
     width: 200px;
     height: 30px;
     text-align: center;
     margin: auto;
-    background: #000;
+    background: #000000;
 }
 
-.box:hover {
-    background: #00215f;
+.linkbox a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+
+.linkbox:hover {
+    background: #00b7ff;
     width: 200px;
 }
