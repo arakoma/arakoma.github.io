@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 html {
-    background: #080a0c;
+    background: #0a0c0f;
 }
 
 * {
@@ -11,4 +11,17 @@ html {
 
 p {
     font-size: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    background: #000;
+}
+
+.box:hover {
+    background: #00215f;
+    width: 200px;
 }
