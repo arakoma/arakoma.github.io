@@ -20,6 +20,12 @@ p {
     text-align: center;
     margin: auto;
     background: #000000;
+    border: solid 1px #ffffff;
+}
+
+.linkbox p {
+    margin: 0; 
+    padding: 0;
 }
 
 .linkbox a {
